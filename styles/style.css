@@ -1,0 +1,116 @@
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* Shared Style */
+.orange {
+    color: rgb(253, 110, 10);
+}
+
+/* Nav Style */
+nav {
+    margin: 0 230px;
+    padding: 0px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 50px;
+    /* border: 1px solid blue; */
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.dark-2 {
+    color: rgb(71, 71, 71);
+}
+
+.secondary {
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.nav-title {
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.btn-primary {
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    padding: 18px 32px;
+    border: none;
+    cursor: pointer;
+}
+.header{
+    background-image: url("../images/developer.png"),url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* Banner area */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 36px 0 230px;
+}
+.banner-container{
+    max-width: 585px;
+}
+.banner-greeting{
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.banner-title {
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 116px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.banner-description{
+
+}
+
+.banner-profile-picture {
+    width: 584px;
+}
